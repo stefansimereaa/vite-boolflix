@@ -10,10 +10,13 @@ const endpoint = ''
 export default {
   data() {
     return {
-      components: { AppHeader, AppMain, },
+
     }
-  }
-}
+  },
+  components: { AppHeader, AppMain, },
+
+
+};
 </script>
 
 <template>
