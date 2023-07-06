@@ -18,10 +18,6 @@ export default {
 </template>
   
 <style lang="scss" scoped>
-section {
-    margin-bottom: 6rem;
-}
-
 main {
     background-color: #383838;
     padding: 15px 0;
