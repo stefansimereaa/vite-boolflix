@@ -5,9 +5,9 @@ import { setMoviesData, setTvShowsData } from './data/setData';
 import { axiosRequest } from './data/ApiKeyRequest';
 
 // Funzione asincrona per ottenere i risultati della ricerca
-const fetchResults = async (whatToFetch, query) => {
+const fetchResults = async (Fetch, query) => {
   const params = { query };
-  const res = await axiosRequest.get(whatToFetch, { params });
+  const res = await axiosRequest.get(Fetch, { params });
   return res.data.results;
 };
 
