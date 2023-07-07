@@ -10,35 +10,20 @@ export default {
 
 <template>
     <main>
+        <!-- Container Cards -->
         <div class="container">
+            <!-- Movies Card-->
             <AppGalleryCards :media="movies" section-id="movies" title="Movies" />
+            <!-- Tv Shows Card-->
             <AppGalleryCards :media="tvShows" section-id="tv-series" title="TV Shows" />
         </div>
     </main>
 </template>
   
-<style lang="scss" scoped>
-section {
-    margin-bottom: 6rem;
-}
-
+<style lang="scss" scoped >
 main {
     background-color: #383838;
-    padding: 15px 0;
-}
-
-.container .movies,
-.series {
-    display: flex;
-    overflow-x: auto;
-}
-
-h2 {
-    margin-left: 10px;
-    padding-top: 20px;
-    font-size: 15px;
-    text-transform: uppercase;
-    color: white;
+    padding: 20px 0;
 }
 </style>
   

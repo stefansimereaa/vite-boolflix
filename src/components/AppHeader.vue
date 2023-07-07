@@ -6,7 +6,7 @@ export default {
     components: { AppSearchbar },
     methods: {
         inputSubmitForm(inputWord) {
-            store.query = inputWord;
+            store.word = inputWord;
             this.$emit('submitted-word', inputWord);
         },
     },
@@ -17,7 +17,5 @@ export default {
 <template>
     <AppSearchbar @submitted="inputSubmitForm" />
 </template>
-
-
 
 <style></style>

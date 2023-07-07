@@ -12,7 +12,9 @@ export default {
 <template>
 	<header>
 		<div class="container-header">
+			<!-- Logo -->
 			<div class="logo">Boolflix</div>
+			<!-- Search Form -->
 			<form @submit.prevent="$emit('submitted', inputWord)" class="buttons-search">
 				<input v-model="inputWord" type="search" placeholder="Cerca..." class="form-control" />
 				<button type="submit" class="btn btn-primary">Cerca</button>
