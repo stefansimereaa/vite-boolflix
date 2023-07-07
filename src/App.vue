@@ -15,7 +15,7 @@ export default {
   components: { AppHeader, AppMain },
   methods: {
     async inputNewWord(query) {
-      // Ottenere i risultati delle film corrispondenti alla query
+      // Ottenere i risultati dei film corrispondenti alla query
       const movies = await fetchResults('/movie', query);
       // Ottenere i risultati delle serie TV corrispondenti alla query
       const tvShows = await fetchResults('/tv', query);

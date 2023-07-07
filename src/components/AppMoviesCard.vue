@@ -11,7 +11,7 @@ export default {
     },
     computed: {
         // Controllo dell'URL della bandiera in base alla lingua originale del film
-        flagUrl() {
+        flagsUrl() {
             const url = new URL(`../assets/img/${this.originalLanguage}.png`, import.meta.url);
             const lang = this.originalLanguage;
             return lang === 'it' || lang === 'en' ? url.href : null;
@@ -41,7 +41,7 @@ export default {
                     <!-- Lingua originale e flag -->
                     <div class="original-language">
                         <strong>Lingua originale: </strong>
-                        <img v-if="flagUrl" :src="flagUrl" :alt="originalLanguage" />
+                        <img v-if="flagsUrl" :src="flagsUrl" :alt="originalLanguage" />
                         <span v-else>{{ originalLanguage.toUpperCase() }}</span>
                     </div>
                     <!-- Card Rating -->
@@ -124,7 +124,7 @@ export default {
                 }
 
                 .overview-container {
-                    max-height: 200px;
+                    max-height: 250px;
                     overflow: auto;
                 }
             }

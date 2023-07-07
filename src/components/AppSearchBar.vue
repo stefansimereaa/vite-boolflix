@@ -16,7 +16,8 @@ export default {
 			<div class="logo">Boolflix</div>
 			<!-- Search Form -->
 			<form @submit.prevent="$emit('submitted', inputWord)" class="buttons-search">
-				<input v-model="inputWord" type="search" placeholder="Cerca..." class="form-control" />
+				<input v-model="inputWord" type="search" placeholder="Cerca un film o una serie tv...."
+					class="form-control" />
 				<button type="submit" class="btn btn-primary">Cerca</button>
 			</form>
 		</div>
