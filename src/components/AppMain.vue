@@ -20,11 +20,7 @@ export default {
     </main>
 </template>
   
-<<<<<<< HEAD
-<style lang="scss" scoped >
-=======
 <style lang="scss" scoped>
->>>>>>> 8ca5aace6fe89acaf062408dd355e9438d53fc8b
 main {
     background-color: #383838;
     padding: 20px 0;
