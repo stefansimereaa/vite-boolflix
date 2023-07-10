@@ -1,5 +1,5 @@
 import axios from "axios";
-import { baseURL, API_KEY } from "./data";
+import { baseURL, API_KEY } from "./Data";
 
 // Creazione di un'istanza axios per effettuare richiesta API
 export const axiosRequest = axios.create({

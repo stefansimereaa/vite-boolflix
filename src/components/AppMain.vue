@@ -1,6 +1,6 @@
 <script>
 import AppGalleryCards from './AppGalleryCards.vue';
-import { store } from '../data/store';
+import { store } from '../data/Store';
 
 export default {
     data: () => store,
