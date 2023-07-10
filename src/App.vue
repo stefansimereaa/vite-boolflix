@@ -37,4 +37,3 @@ export default {
 // Importato foglio di stile
 @import '../src/assets/scss/style.scss';
 </style>
-./data/apiKeyRequest
