@@ -2,7 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import { setMoviesData, setTvShowsData } from './data/setData';
-import { axiosRequest } from './data/apiKeyRequest';
+import { axiosRequest } from './data/ApiKeyRequest';
 
 // Funzione asincrona per ottenere i risultati della ricerca
 const fetchResults = async (Fetch, query) => {
