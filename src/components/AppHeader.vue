@@ -1,9 +1,9 @@
 <script>
-import AppSearchbar from '../components/AppSearchbar.vue';
+import AppSearchBar from '../components/AppSearchBar.vue';
 import { store } from '../data/store';
 
 export default {
-    components: { AppSearchbar },
+    components: { AppSearchBar },
     methods: {
         inputSubmitForm(inputWord) {
             store.word = inputWord;
@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-    <AppSearchbar @submitted="inputSubmitForm" />
+    <AppSearchBar @submitted="inputSubmitForm" />
 </template>
 
 <style></style>

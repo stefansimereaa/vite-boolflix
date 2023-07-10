@@ -2,7 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import { setMoviesData, setTvShowsData } from './data/setData';
-import { axiosRequest } from './data/ApiKeyRequest';
+import { axiosRequest } from './data/apiKeyRequest';
 
 // Funzione asincrona per ottenere i risultati della ricerca
 const fetchResults = async (Fetch, query) => {
@@ -37,3 +37,4 @@ export default {
 // Importato foglio di stile
 @import '../src/assets/scss/style.scss';
 </style>
+./data/apiKeyRequest
