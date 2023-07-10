@@ -1,6 +1,7 @@
 import { store } from "./Store";
 
 // Crea un array di oggetti di film tramite il metodo map e lo invia allo store.js
+
 export const setMoviesData = (movies) => {
   store.movies = movies.map(
     ({

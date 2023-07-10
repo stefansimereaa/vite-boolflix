@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 // Icons imported
 import { faStar as sStar } from "@fortawesome/free-solid-svg-icons";
+
 import { faStar as rStar } from "@fortawesome/free-regular-svg-icons";
 
 library.add(sStar, rStar);
